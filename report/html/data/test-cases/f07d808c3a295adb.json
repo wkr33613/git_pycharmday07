@@ -1,0 +1,91 @@
+{
+  "uid" : "f07d808c3a295adb",
+  "name" : "TestAll.test01",
+  "fullName" : "test_01_allure.TestAll.test01",
+  "historyId" : "3e9daa5f77ae93518dd3281c47a8e769",
+  "time" : {
+    "start" : 1552960365600,
+    "stop" : 1552960365685,
+    "duration" : 85
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "passed",
+  "flaky" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "测试新增信息",
+      "time" : {
+        "start" : 1552960365684,
+        "stop" : 1552960365684,
+        "duration" : 0
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "8b59eddb09324ac2",
+        "name" : "点击新增按钮",
+        "source" : "8b59eddb09324ac2.txt",
+        "type" : "text/plain",
+        "size" : 0
+      } ],
+      "parameters" : [ ],
+      "attachmentsCount" : 1,
+      "shouldDisplayMessage" : false,
+      "stepsCount" : 0,
+      "hasContent" : true
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "attachmentsCount" : 1,
+    "shouldDisplayMessage" : false,
+    "stepsCount" : 1,
+    "hasContent" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "host",
+    "value" : "VMGAJPBD263FGYJ"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "severity",
+    "value" : "normal"
+  }, {
+    "name" : "thread",
+    "value" : "1344-MainThread"
+  }, {
+    "name" : "suite",
+    "value" : "test_01_allure"
+  }, {
+    "name" : "testClass",
+    "value" : "test_01_allure"
+  }, {
+    "name" : "testMethod",
+    "value" : "TestAll.test01"
+  }, {
+    "name" : "package",
+    "value" : "test_01_allure"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "f07d808c3a295adb.json",
+  "parameterValues" : [ ]
+}

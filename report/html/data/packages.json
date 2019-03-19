@@ -1,0 +1,33 @@
+{
+  "uid" : "83edc06c07f9ae9e47eb6dd1b683e4e2",
+  "name" : "packages",
+  "children" : [ {
+    "name" : "test_01_allure",
+    "children" : [ {
+      "name" : "TestAll.test01",
+      "uid" : "f07d808c3a295adb",
+      "parentUid" : "99cca0b48d18c7c0f5e5616d01e98b59",
+      "status" : "passed",
+      "time" : {
+        "start" : 1552960365600,
+        "stop" : 1552960365685,
+        "duration" : 85
+      },
+      "flaky" : false,
+      "parameters" : [ ]
+    }, {
+      "name" : "TestAll.test02",
+      "uid" : "1532c359b82dba4a",
+      "parentUid" : "99cca0b48d18c7c0f5e5616d01e98b59",
+      "status" : "passed",
+      "time" : {
+        "start" : 1552960365688,
+        "stop" : 1552960365690,
+        "duration" : 2
+      },
+      "flaky" : false,
+      "parameters" : [ ]
+    } ],
+    "uid" : "99cca0b48d18c7c0f5e5616d01e98b59"
+  } ]
+}

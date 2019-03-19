@@ -1,0 +1,87 @@
+<ns0:test-suite xmlns:ns0="urn:model.allure.qatools.yandex.ru" start="1552965521118" stop="1552965521305">
+  <name>test_01_allure</name>
+  <labels/>
+  <test-cases>
+    <test-case start="1552965521118" status="failed" stop="1552965521284">
+      <name>TestAll.test01</name>
+      <failure>
+        <message>NameError: name 'prnt' is not defined</message>
+        <stack-trace>self = &lt;test_01_allure.TestAll object at 0x0319C970&gt;
+
+    @allure.step("测试新增信息")
+    @pytest.allure.severity(pytest.allure.severity_level.TRIVIAL)
+    def test01(self):
+        allure.attach('点击新增按钮','娃哈哈')
+        allure.attach('输入收货地址','嘤嘤嘤')
+&gt;       prnt('01运行了')
+E       NameError: name 'prnt' is not defined
+
+scripts\test_01_allure.py:13: NameError</stack-trace>
+      </failure>
+      <attachments/>
+      <labels>
+        <label name="severity" value="trivial"/>
+        <label name="thread" value="3292-MainThread"/>
+        <label name="host" value="VMGAJPBD263FGYJ"/>
+        <label name="framework" value="pytest"/>
+        <label name="language" value="cpython3"/>
+      </labels>
+      <steps>
+        <step start="1552965521124" status="failed" stop="1552965521124">
+          <name>测试新增信息</name>
+          <title>测试新增信息</title>
+          <attachments>
+            <attachment source="45c82cf1-9f38-4db6-bfb5-dcd07943e0bb-attachment.txt" title="点击新增按钮" type="text/plain"/>
+            <attachment source="1d3b45db-caf6-4532-b986-6b5857da84b5-attachment.txt" title="输入收货地址" type="text/plain"/>
+          </attachments>
+          <steps/>
+        </step>
+      </steps>
+    </test-case>
+    <test-case start="1552965521290" status="passed" stop="1552965521293">
+      <name>TestAll.test02</name>
+      <attachments/>
+      <labels>
+        <label name="severity" value="normal"/>
+        <label name="thread" value="3292-MainThread"/>
+        <label name="host" value="VMGAJPBD263FGYJ"/>
+        <label name="framework" value="pytest"/>
+        <label name="language" value="cpython3"/>
+      </labels>
+      <steps>
+        <step start="1552965521292" status="passed" stop="1552965521292">
+          <name>测试删除信息</name>
+          <title>测试删除信息</title>
+          <attachments>
+            <attachment source="53a1fea4-2bd5-44a0-8abb-5782f0ad1474-attachment.txt" title="开始删除" type="text/plain"/>
+          </attachments>
+          <steps/>
+        </step>
+      </steps>
+    </test-case>
+    <test-case start="1552965521299" status="passed" stop="1552965521302">
+      <name>TestAll.test03</name>
+      <attachments/>
+      <labels>
+        <label name="severity" value="critical"/>
+        <label name="thread" value="3292-MainThread"/>
+        <label name="host" value="VMGAJPBD263FGYJ"/>
+        <label name="framework" value="pytest"/>
+        <label name="language" value="cpython3"/>
+      </labels>
+      <steps/>
+    </test-case>
+    <test-case start="1552965521303" status="passed" stop="1552965521305">
+      <name>TestAll.test04</name>
+      <attachments/>
+      <labels>
+        <label name="severity" value="blocker"/>
+        <label name="thread" value="3292-MainThread"/>
+        <label name="host" value="VMGAJPBD263FGYJ"/>
+        <label name="framework" value="pytest"/>
+        <label name="language" value="cpython3"/>
+      </labels>
+      <steps/>
+    </test-case>
+  </test-cases>
+</ns0:test-suite>

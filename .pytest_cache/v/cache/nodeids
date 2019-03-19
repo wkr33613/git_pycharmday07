@@ -1,0 +1,6 @@
+[
+  "scripts/test_01_allure.py::TestAll::()::test01",
+  "scripts/test_01_allure.py::TestAll::()::test02",
+  "scripts/test_01_allure.py::TestAll::()::test03",
+  "scripts/test_01_allure.py::TestAll::()::test04"
+]
